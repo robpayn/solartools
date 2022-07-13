@@ -85,8 +85,7 @@ Calculates the incoming extraterrestrial solar radiation at
 \subsection{Arguments}{
 \if{html}{\out{<div class="arguments">}}
 \describe{
-\item{\code{timeCT}}{The time in POSIXct type.
-Default value is time coerced into POSIXct class.}
+\item{\code{timeCT}}{The time in POSIXct type.}
 
 \item{\code{timeLT}}{The time in POSXlt type.
 Default value is timeCT coerced into POSIXlt class.}
@@ -108,9 +107,6 @@ Default value is an empirical calculation from the day angle.}
 
 \item{\code{declinationAngle}}{The declination angle of the sun relative to Earth's equator.
 Default value is an empirical calculation from the day angle.}
-
-\item{\code{time}}{The time(s) at which solar radiation should be calculated.
-Must be coercable into a POSIX type time.}
 }
 \if{html}{\out{</div>}}
 }

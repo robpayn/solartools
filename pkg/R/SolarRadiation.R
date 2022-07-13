@@ -74,12 +74,8 @@ SolarRadiation <- R6Class(
       #'   (i.e. before any influence by atmosphere) for the location
       #'   on earth represented by the SolarRadiation object.
       #'
-      #' @param time
-      #'   The time(s) at which solar radiation should be calculated.
-      #'   Must be coercable into a POSIX type time.
       #' @param timeCT
       #'   The time in POSIXct type.
-      #'   Default value is time coerced into POSIXct class.
       #' @param timeLT
       #'   The time in POSXlt type.
       #'   Default value is timeCT coerced into POSIXlt class.
