@@ -45,15 +45,9 @@ SolarRadiation <- R6Class(
       #'   Latitude on earth in decimal degrees
       #' @param longitude
       #'   Longitude on earth in decimal degrees
-      #' @param differenceFromGMT
-      #'   Number of hours time zone is different from GMT
-      #' @param adjustDST
-      #'   Number of hours to adjust the difference from GMT during
-      #'   daylight savings time.
-      #'   Default value is NA, which disables daylight savings adjustments.
       #' @param solarConstantFlux
-      #'   Base flux of energy from the sun.
-      #'   Default value is 1364 Watts per square meter
+      #'   Base flux of energy from the sun in Watts per square meter.
+      #'   Default value is 1364.
       #' @param earthAngularVelocity
       #'   Angular velocity of earth's rotation in radians per hour.
       #'   Default value is 0.2618.

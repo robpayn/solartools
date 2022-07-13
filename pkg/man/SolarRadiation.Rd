@@ -49,17 +49,11 @@ Construct a new instance of the class
 
 \item{\code{longitude}}{Longitude on earth in decimal degrees}
 
-\item{\code{solarConstantFlux}}{Base flux of energy from the sun.
-Default value is 1364 Watts per square meter}
+\item{\code{solarConstantFlux}}{Base flux of energy from the sun in Watts per square meter.
+Default value is 1364.}
 
 \item{\code{earthAngularVelocity}}{Angular velocity of earth's rotation in radians per hour.
 Default value is 0.2618.}
-
-\item{\code{differenceFromGMT}}{Number of hours time zone is different from GMT}
-
-\item{\code{adjustDST}}{Number of hours to adjust the difference from GMT during
-daylight savings time.
-Default value is NA, which disables daylight savings adjustments.}
 }
 \if{html}{\out{</div>}}
 }
