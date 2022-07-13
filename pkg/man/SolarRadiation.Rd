@@ -111,7 +111,11 @@ Default value is an empirical calculation from the day angle.}
 \if{html}{\out{</div>}}
 }
 \subsection{Returns}{
-The solar radiation flux at the top of Earth's atmosphere
+The solar radiation flux at the top of Earth's atmosphere.
+  Units will be the same as those provided for the solar 
+  constant flux attribute.
+  Default solar constant flux in the constructor is in 
+  units of watts per square meter.
 }
 }
 \if{html}{\out{<hr>}}

@@ -5,7 +5,7 @@
 #' @importFrom R6 R6Class
 NULL
 
-# Class SolarRadiation ####
+# R6 Class SolarRadiation ####
 
 #' @export
 #'
@@ -19,6 +19,8 @@ NULL
 SolarRadiation <- R6Class(
    classname = "SolarRadiation",
    public = list(
+      
+      ## Attributes ####
       
       #' @field latitudeAngle
       #'   Angle of the latitude
@@ -36,8 +38,8 @@ SolarRadiation <- R6Class(
       #'   The angular velocity of Earth's rotation on its axis
       earthAngularVelocity = NULL,
       
-      # Method SolarRadiation$new ####
-      #
+      ## Method: constructor ####
+
       #' @description
       #'   Construct a new instance of the class
       #'
@@ -66,7 +68,7 @@ SolarRadiation <- R6Class(
          self$earthAngularVelocity <- earthAngularVelocity;
       },
       
-      # Method SolarRadiation$getExtraterrestrialInsolation ####
+      ## Method: getExtraterrestrialInsolation ####
       #
       #' @description
       #'   Calculates the incoming extraterrestrial solar radiation at
@@ -99,7 +101,11 @@ SolarRadiation <- R6Class(
       #'   Default value is an empirical calculation from the day angle.
       #'
       #' @return
-      #'   The solar radiation flux at the top of Earth's atmosphere
+      #'   The solar radiation flux at the top of Earth's atmosphere.
+      #'   Units will be the same as those provided for the solar 
+      #'   constant flux attribute.
+      #'   Default solar constant flux in the constructor is in 
+      #'   units of watts per square meter.
       #'
       getExtraterrestrialInsolation = function
       (
