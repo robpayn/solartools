@@ -1,4 +1,6 @@
 .Rproj.user
 .Rhistory
 .RData
-.Ruserdata
+pkg/.Rproj.user
+pkg/.Rhistory
+pkg/.RData

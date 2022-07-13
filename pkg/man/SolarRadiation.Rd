@@ -23,14 +23,14 @@ Provides the ability to make solar radiation calculations
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{SolarRadiation$new()}}
-\item \href{#method-getExtraterrestrialInsolation}{\code{SolarRadiation$getExtraterrestrialInsolation()}}
-\item \href{#method-clone}{\code{SolarRadiation$clone()}}
+\item \href{#method-SolarRadiation-new}{\code{SolarRadiation$new()}}
+\item \href{#method-SolarRadiation-getExtraterrestrialInsolation}{\code{SolarRadiation$getExtraterrestrialInsolation()}}
+\item \href{#method-SolarRadiation-clone}{\code{SolarRadiation$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-SolarRadiation-new"></a>}}
+\if{latex}{\out{\hypertarget{method-SolarRadiation-new}{}}}
 \subsection{Method \code{new()}}{
 Construct a new instance of the class
 \subsection{Usage}{
@@ -65,8 +65,8 @@ Default value is NA, which disables daylight savings adjustments.}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-getExtraterrestrialInsolation"></a>}}
-\if{latex}{\out{\hypertarget{method-getExtraterrestrialInsolation}{}}}
+\if{html}{\out{<a id="method-SolarRadiation-getExtraterrestrialInsolation"></a>}}
+\if{latex}{\out{\hypertarget{method-SolarRadiation-getExtraterrestrialInsolation}{}}}
 \subsection{Method \code{getExtraterrestrialInsolation()}}{
 Calculates the incoming extraterrestrial solar radiation at
   the times provided
@@ -125,8 +125,8 @@ The solar radiation flux at the top of Earth's atmosphere
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-SolarRadiation-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-SolarRadiation-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{
